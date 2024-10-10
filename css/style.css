@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background:url("../img/bg-desktop.jpg") no-repeat top center/cover;
+    height: 100vh;
+}
+
+body * {
+    color: white;
+   }
+
+p{
+    font-family:Oswald ;
+}
+
 a {
     text-decoration: none;
+    color: white
 }
